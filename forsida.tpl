@@ -8,10 +8,9 @@
 		<h2>Information about user</h2><br>
 		<label>Username</label><br>
 		<input type="text" name="name"><br>
-		<label>Email address</label><br>
-		<input type="email" name="email"><br>
 		<label>Password</label><br>
-		<input type="password" name="passw">
+		<input type="password" name="passw"><br>
+		<input type="submit" value="Sign Up">
 	</form>
 </body>
 </html>

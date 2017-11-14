@@ -5,18 +5,17 @@ import pymysql
 def index():
     return template("forsida.tpl")
 
-@route("/signup")
+@route("/signup", method="POST")
 def signup():
     connect = pymysql.connect(user="1612002390", passwd="mypassword", host="tsuts.tskoli.is", port=3306,database="1612002390_veflokaverkefni")
 
     username = request.forms.get("name")
-    email = request.forms.get("email")
     password = request.forms.get("passwd")
 
     with connect.cursor() as cursor:
         try:
-            sql = "INSERT INTO users (username,email,passwd) VALUES (%s,%s,%s)"
-            cursor.execute(sql,(username,email,password))
+            sql = "INSERT INTO users (username,passwd) VALUES (%s,%s)"
+            cursor.execute(sql,(username,password))
             connect.commit()
             return "Thank you for signing up<br>" \
                    "Your username is:" + username+\
