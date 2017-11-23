@@ -15,6 +15,6 @@
 	</form>
 	<br><br>
 	Don't have an account?<br>
-	Click <a href="/">here</a> to create a new account.
+	Click <a href="/">here</a> to create a new account.<br>
 </body>
 </html>

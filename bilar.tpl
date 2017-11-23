@@ -7,7 +7,7 @@
 	<section>
 		<div>
 			<img src="/images/golf2000.jpg">
-			<h4>VW Golf</h4><br>
+			<h4>VW Golf</h4>
 			<ul>
 				<li>Year: 2000</li><br>
 				<li>Manual</li><br>
@@ -17,7 +17,7 @@
 		</div><br>
 		<div>
 			<img src="/images/ford2006.jpg">
-			<h4>Ford Escape Limited</h4><br>
+			<h4>Ford Escape Limited</h4>
 			<ul>
 				<li>Year: 2006</li><br>
 				<li>Auto</li><br>
@@ -27,7 +27,7 @@
 		</div><br>
 		<div>
 			<img src="/images/toyota1994.jpg">
-			<h4>Toyota Corolla</h4><br>
+			<h4>Toyota Corolla</h4>
 			<ul>
 				<li>Year: 1994</li><br>
 				<li>Manual</li><br>
@@ -37,7 +37,7 @@
 		</div><br>
 		<div>
 			<img src="/images/toyota2001.jpg">
-			<h4>Toyota Rav</h4><br>
+			<h4>Toyota Rav</h4>
 			<ul>
 				<li>Year: 2001</li><br>
 				<li>Auto</li><br>
@@ -47,7 +47,7 @@
 		</div><br>
 		<div>
 			<img src="/images/mazda2004.jpg">
-			<h4>Mazda 6</h4><br>
+			<h4>Mazda 6</h4>
 			<ul>
 				<li>Year: 2004</li><br>
 				<li>Auto</li><br>
@@ -57,7 +57,7 @@
 		</div><br>
 		<div>
 			<img src="/images/chevrolet2011.jpg">
-			<h4>Chevrolet Cruze</h4><br>
+			<h4>Chevrolet Cruze</h4>
 			<ul>
 				<li>Year: 2011</li><br>
 				<li>Manual</li><br>
@@ -67,7 +67,7 @@
 		</div><br>
 		<div>
 			<img src="/images/renault2004.jpg">
-			<h4>Renault Mégane</h4><br>
+			<h4>Renault Mégane</h4>
 			<ul>
 				<li>Year: 2004</li><br>
 				<li>Manual</li><br>
@@ -77,7 +77,7 @@
 		</div><br>
 		<div>
 			<img src="/images/honda2004.jpg">
-			<h4>Honda Accord</h4><br>
+			<h4>Honda Accord</h4>
 			<ul>
 				<li>Year: 2004</li><br>
 				<li>Auto</li><br>

@@ -15,12 +15,13 @@ def signup():
     connect = pymysql.connect(user="1612002390", passwd="mypassword", host="tsuts.tskoli.is", port=3306,database="1612002390_veflokaverkefni")
 
     username = request.forms.get("name")
+    email = request.forms.get("email")
     password = request.forms.get("passwd")
 
     with connect.cursor() as cursor:
         try:
-            sql = "INSERT INTO users (username,passwd) VALUES (%s,%s)"
-            cursor.execute(sql,(username,password))
+            sql = "INSERT INTO users (username,email,passwd) VALUES (%s,%s,%s)"
+            cursor.execute(sql,(username,email,password))
             connect.commit()
             return "Thank you for signing up<br>" \
                    "Your username is:" + username+\
@@ -41,7 +42,8 @@ def check():
     with connect.cursor() as cursor:
         sql = "select * from users where username=%s and passwd=%s;"
         if cursor.execute(sql, (username, passwd)):
-            return "Welcome: " + username
+            return "Welcome: " + username + "<br>" \
+                   "Click <a href='/forsida'>here</a> to shop"
         else:
             return "Login failed<br>" \
                    "Click <a href='/login'>here</a> to go back to login"
