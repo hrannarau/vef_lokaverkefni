@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="774e8a35-f1f9-45a3-98e5-8bc22c9f6233" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bilar.tpl" afterPath="$PROJECT_DIR$/bilar.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forsida.tpl" afterPath="$PROJECT_DIR$/forsida.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.py" afterPath="$PROJECT_DIR$/index.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user.sql" afterPath="$PROJECT_DIR$/user.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.tpl" afterPath="$PROJECT_DIR$/login.tpl" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +25,21 @@
       <file leaf-file-name="index.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="71" column="71" lean-forward="true" selection-start-line="71" selection-start-column="71" selection-end-line="71" selection-end-column="71" />
+            <state relative-caret-position="663">
+              <caret line="69" column="35" lean-forward="true" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lidur2kodi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../V4/lidur2kodi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="29" selection-end-column="50" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,7 +96,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../V4/lidur2kodi.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.index">
@@ -299,7 +311,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -331,10 +343,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../../V4/lidur2kodi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="29" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="71" column="71" lean-forward="true" selection-start-line="71" selection-start-column="71" selection-end-line="71" selection-end-column="71" />
+        <state relative-caret-position="663">
+          <caret line="69" column="35" lean-forward="true" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>

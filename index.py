@@ -71,5 +71,9 @@ def forsida():
 def image(filename):
     return static_file(filename, root='./images', mimetype='image/jpg')
 
+@route('/css/<filename:re:.*\.css>')
+def css(filename):
+       return static_file(filename, root='./css')
+
 
 run(host='localhost', port=8080)
