@@ -1,1 +1,8 @@
-h
+body{
+	text-align: center;
+	background-color: pink;
+}
+h2{color: hotpink}
+h3{
+	margin : auto;
+}
