@@ -95,7 +95,7 @@ def cart():
                "YOUR CART",cart,"<br><br>" \
                "        <a href='/checkout'>-----CHECKOUT-----</a><br>" \
                "---------------------------------------------------<br><br>"\
-               "Click <a href='/delete'>here</a> to delete items from cart" \
+               "Click <a href='/delete'>here</a> to delete items from cart<br><br>" \
                "Click <a href='/forsida'>here</a> to go back to the homepage"
 
     else:
