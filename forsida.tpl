@@ -16,6 +16,7 @@
 		<input type="submit" value="Sign Up">
 	</form>
 	<br><br>
-	Have an account already?  Click <a href="/login">here</a> to login.
+	Have an account already?  Click <a href="/login">here</a> to login.<br><br>
+	Or click <a href="/forsida">here</a> to go to the homepage.<br>
 </body>
 </html>
