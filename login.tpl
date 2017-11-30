@@ -16,6 +16,7 @@
 	</form>
 	<br><br>
 	Don't have an account?<br>
-	Click <a href="/">here</a> to create a new account.<br>
+	Click <a href="/">here</a> to create a new account.<br><br>
+	Or click <a href="/forsida">here</a> to go to the homepage.<br>
 </body>
 </html>
