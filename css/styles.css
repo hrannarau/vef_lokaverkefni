@@ -2,8 +2,7 @@
 body{
 	margin:auto;
 	text-align: center;
-	background-color: cyan;
-	background-image:url("../images/bakgrunnur.jpg");
+	background-color: pink;
 }
 form{
 	box-sizing: border-box;
@@ -24,7 +23,7 @@ label{
 	font-style: oblique;
 }
 h2{
-	color:white;
+	color:hotpink;
 	font-style: oblique;
 }
 p{
