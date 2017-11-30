@@ -16,6 +16,9 @@ form{
 a{
 	color:white;
 }
+a:hover{
+	color:cyan;
+}
 label{
 	color:white;
 }
