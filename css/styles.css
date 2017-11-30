@@ -14,10 +14,10 @@ form{
 	padding: 4em;
 }
 a{
-	color:wheat;
+	color:hotpink;
 }
 a:hover{
-	color:hotpink;
+	color:deeppink;
 }
 label{
 	color:white;
