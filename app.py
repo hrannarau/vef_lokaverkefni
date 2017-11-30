@@ -25,11 +25,13 @@ def signup():
             sql = "INSERT INTO users (username,email,passwd) VALUES (%s,%s,%s)"
             cursor.execute(sql,(username,email,password))
             connect.commit()
-            return "Thank you for signing up<br>" \
+            return "<link rel="stylesheet" type="text/css" href="css/sheet.css">" \
+                   "Thank you for signing up<br>" \
                    "Your username is:" + username+\
                    "<br>Click <a href='/login'>here</a> to login"
         except pymysql.err.IntegrityError:
-            return "This username is already taken :(<br>" \
+            return "<link rel="stylesheet" type="text/css" href="css/sheet.css">" \
+                   "This username is already taken :(<br>" \
                    "<a href='/'>Click here to go back</a>"
 
 @route("/login")
@@ -46,7 +48,8 @@ def check():
         sql = "select * from users where username=%s and passwd=%s;"
         if cursor.execute(sql, (username, passwd)):
             response.set_cookie("name",username)
-            return "Welcome: " + username + "<br>" \
+            return "<link rel="stylesheet" type="text/css" href="css/sheet.css">" \
+                   "Welcome: " + username + "<br>" \
                    "Click <a href='/forsida'>here</a> to shop"
         else:
             return "Login failed<br>" \
@@ -86,7 +89,8 @@ def cart():
             shoppingCart.append("Honda Accord")
     cart = '<br>'.join(shoppingCart)
     if request.get_cookie("name"):
-        return "Welcome back ",request.get_cookie("name"),". Nice to see you again<br><br>" \
+        return "<link rel="stylesheet" type="text/css" href="css/sheet.css">" \
+               "Welcome back ",request.get_cookie("name"),". Nice to see you again<br><br>" \
                "---------------------------------------------------<br>"\
                "YOUR CART",cart,"<br><br>" \
                "        <a href='/checkout'>-----CHECKOUT-----</a><br>" \
@@ -95,7 +99,8 @@ def cart():
                "Click <a href='/forsida'>here</a> to go back to the homepage"
 
     else:
-        return "Hello there! Would you like to <a href='/login'>login</a>?<br>" \
+        return "<link rel="stylesheet" type="text/css" href="css/sheet.css">" \
+               "Hello there! Would you like to <a href='/login'>login</a>?<br>" \
                "Don't have an account?<br>"\
                "Click <a href='/'>here</a> to create a new account.<br><br>" \
                "---------------------------------------------------<br>" \
@@ -145,7 +150,8 @@ def checkout():
 
     for i in upphaedListi:
         upphaed = upphaed + i
-    return "----------CHECKOUT----------   <a href ='/forsida'>Home</a>  <a href='/cart'>Cart</a>", \
+    return "<link rel="stylesheet" type="text/css" href="css/sheet.css">" \
+           "----------CHECKOUT----------   <a href ='/forsida'>Home</a>  <a href='/cart'>Cart</a>", \
            cart, "<br><br>" \
                  "Total cost: ", str(upphaed), " ISK<br><br>" \
            "<a href='confirm'>Confirm order</a>"
@@ -153,10 +159,12 @@ def checkout():
 @route("/confirm")
 def confirm():
     if request.get_cookie("name"):
-        return "Order has been confirmed.<br>" \
+        return "<link rel="stylesheet" type="text/css" href="css/sheet.css">" \
+               "Order has been confirmed.<br>" \
                "You will find a confirmation in your email."
     else:
-        return "You need to <a href='/login'>login</a> before you confirm an order."
+        return "<link rel="stylesheet" type="text/css" href="css/sheet.css">" \
+               "You need to <a href='/login'>login</a> before you confirm an order."
 
 @route('/images/<filename:re:.*\.jpg>')
 def image(filename):
