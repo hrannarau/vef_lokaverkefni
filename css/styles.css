@@ -5,21 +5,13 @@ body{
 	background-color: cyan;
 	background-image:url("../images/bakgrunnur.jpg");
 }
-h2{
-	text-shadow: 0.5px 0.5px white;
-}
 form{
 	box-sizing: border-box;
 	border: solid;
 	max-width: 30em;
 	justify-content: center;
-	background-image:url("../images/theman.jpg");
 	margin: auto;
 	padding: 4em;
-}
-label{
-	color: white;
-	text-shadow: 1px 1px black;
 }
 a{
 	color:white;
